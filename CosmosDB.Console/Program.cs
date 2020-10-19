@@ -10,6 +10,9 @@ namespace CosmosDB.Console
 {
     public class Program
     {
+        private static string _accountEndpoint = "https://<your-cosmos-db>.documents.azure.com:443/";
+        private static string _accountEndpointToken = "";
+
         static async Task Main(string[] args)
         {
             await CreateCategory();
@@ -125,7 +128,7 @@ namespace CosmosDB.Console
 
         private static Microsoft.Azure.Cosmos.Database GetDatabase()
         {
-            CosmosClient client = new CosmosClient("https://cosmosdb-erwin.documents.azure.com:443/", "nDGOYFbQHAFozwlabVFQKqOmMBHonGPTAjax2WE1gvcaiVr6DZsc2NJZidbxNbI8dGAGHmnONRQxoYxfc4hPlA==");
+            CosmosClient client = new CosmosClient(_accountEndpoint, _accountEndpointToken);
             Microsoft.Azure.Cosmos.Database database = client.GetDatabase("OrdersDB");
 
             return database;
