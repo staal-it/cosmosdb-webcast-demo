@@ -1,0 +1,30 @@
+[
+    {
+        "name": "books",
+        "type": "category"
+    },
+    {
+        "name": "music",
+        "type": "category"
+    },
+    {
+        "name": "download",
+        "type": "tag"
+    },
+    {
+        "name": "delivery",
+        "type": "tag"
+    },
+    {
+        "name": "Windows",
+        "type": "tag"
+    },
+    {
+        "name": "Linux",
+        "type": "tag"
+    },
+    {
+        "name": "OSx",
+        "type": "tag"
+    }
+]

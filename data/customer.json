@@ -1,0 +1,37 @@
+[
+    {
+        "customerId": "38b31de6-4b90-433c-be68-563b57fd41b8",
+        "type": "customer",
+        "title": "mr",
+        "firstname": "Erwin",
+        "lastname": "Staal",
+        "addresses": [
+            {
+                "address:": "Nieuwezijds Voorburgwal 147",
+                "city": "Amsterdam"
+            }
+        ]
+    },
+    {
+        "customerId": "38b31de6-4b90-433c-be68-563b57fd41b8",
+        "type": "order",
+        "orderDate": "01-10-2020",
+        "orderLines": [
+            {
+                "sku": "636456345",
+                "name": "Clean Code",
+                "quantity": "1"
+            },
+            {
+                "sku": "53465",
+                "name": "Bruce Springsteen - Letter To You",
+                "quantity": "2"
+            },
+            {
+                "sku": "57683",
+                "name": "The Eagles - Live From The Forum",
+                "quantity": "3"
+            }
+        ]
+    }
+]
